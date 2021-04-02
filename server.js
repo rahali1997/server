@@ -1,6 +1,7 @@
-import express from 'express'
-import ConnectDb from './config/db.js'
-import userRoute from './routes/userRoute.js'
+const  express =require('express')
+const  ConnectDb =require('./config/db.js')
+
+const userRoute = require('./routes/userRoute.js')
 
 ConnectDb()
 
